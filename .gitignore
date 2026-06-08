@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model cache (large HuggingFace downloads)
+~/.cache/huggingface/
+.cache/
+
+# Benchmark results (large JSON/CSV files — optional, remove if you want to track them)
+benchmark/results/
+benchmark/results1/
+
+# Plot outputs
+plots/output/
+
+# SSL certificates & keys (NEVER commit these)
+docker/nginx/ssl/server.key
+docker/nginx/ssl/server.crt
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
