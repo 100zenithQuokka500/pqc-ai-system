@@ -1,7 +1,5 @@
 # Hybrid Implementation and Evaluation of Classical and Post-Quantum Cryptographic Mechanisms in AI-Based Web Services
 
-# PQC-AI Sentiment API (v3)
-
 ## Authors
 
 **Himangi Tripathy, Nikita Tosh, Annanya Nayak, Reetu Kanungo, Rishi Raj Gupta**
