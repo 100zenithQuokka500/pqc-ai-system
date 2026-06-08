@@ -1,0 +1,38 @@
+Method,Name,Error,Occurrences
+POST,/predict [low],"ConnectionResetError(104, 'Connection reset by peer')",3
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 255 more expected)', IncompleteRead(0 bytes read, 255 more expected)))",1
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 267 more expected)', IncompleteRead(0 bytes read, 267 more expected)))",1
+GET,/health,"ConnectionResetError(104, 'Connection reset by peer')",4
+POST,/predict [high],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 263 more expected)', IncompleteRead(0 bytes read, 263 more expected)))",2
+POST,/predict [low],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 263 more expected)', IncompleteRead(0 bytes read, 263 more expected)))",1
+GET,/health,"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 104 more expected)', IncompleteRead(0 bytes read, 104 more expected)))",1
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 253 more expected)', IncompleteRead(0 bytes read, 253 more expected)))",1
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 264 more expected)', IncompleteRead(0 bytes read, 264 more expected)))",28
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 259 more expected)', IncompleteRead(0 bytes read, 259 more expected)))",1
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 265 more expected)', IncompleteRead(0 bytes read, 265 more expected)))",4
+POST,/predict [high],"ConnectionResetError(104, 'Connection reset by peer')",3
+POST,/predict [high],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 264 more expected)', IncompleteRead(0 bytes read, 264 more expected)))",1
+POST,/predict [high],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 268 more expected)', IncompleteRead(0 bytes read, 268 more expected)))",1
+POST,/predict [high],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 265 more expected)', IncompleteRead(0 bytes read, 265 more expected)))",1
+POST,/predict [low],RemoteDisconnected('Remote end closed connection without response'),5
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 269 more expected)', IncompleteRead(0 bytes read, 269 more expected)))",2
+POST,/predict [high],RemoteDisconnected('Remote end closed connection without response'),4
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 268 more expected)', IncompleteRead(0 bytes read, 268 more expected)))",8
+POST,/predict [high],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 266 more expected)', IncompleteRead(0 bytes read, 266 more expected)))",2
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 260 more expected)', IncompleteRead(0 bytes read, 260 more expected)))",2
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 252 more expected)', IncompleteRead(0 bytes read, 252 more expected)))",4
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 254 more expected)', IncompleteRead(0 bytes read, 254 more expected)))",1
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 261 more expected)', IncompleteRead(0 bytes read, 261 more expected)))",2
+POST,/predict [low],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 258 more expected)', IncompleteRead(0 bytes read, 258 more expected)))",1
+POST,/predict [stress],"ConnectionResetError(104, 'Connection reset by peer')",90
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 266 more expected)', IncompleteRead(0 bytes read, 266 more expected)))",7
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 266 more expected)', IncompleteRead(0 bytes read, 266 more expected)))",2
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 257 more expected)', IncompleteRead(0 bytes read, 257 more expected)))",1
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 257 more expected)', IncompleteRead(0 bytes read, 257 more expected)))",1
+GET,/metrics,"ConnectionResetError(104, 'Connection reset by peer')",2
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 262 more expected)', IncompleteRead(0 bytes read, 262 more expected)))",2
+POST,/predict [medium],RemoteDisconnected('Remote end closed connection without response'),8
+POST,/predict [stress],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 263 more expected)', IncompleteRead(0 bytes read, 263 more expected)))",19
+POST,/predict [medium],"ConnectionResetError(104, 'Connection reset by peer')",19
+POST,/predict [stress],RemoteDisconnected('Remote end closed connection without response'),48
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 260 more expected)', IncompleteRead(0 bytes read, 260 more expected)))",1

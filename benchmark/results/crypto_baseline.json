@@ -1,0 +1,35 @@
+[
+  {
+    "algorithm": "Classical (RSA+AES)",
+    "iterations": 100,
+    "enc_avg_ms": 0.336,
+    "enc_stdev_ms": 0.315,
+    "enc_min_ms": 0.164,
+    "enc_max_ms": 2.359,
+    "dec_avg_ms": 1.836,
+    "dec_stdev_ms": 0.579,
+    "payload_bytes": 63
+  },
+  {
+    "algorithm": "Post-Quantum (K+D+AES)",
+    "iterations": 100,
+    "enc_avg_ms": 1.093,
+    "enc_stdev_ms": 0.276,
+    "enc_min_ms": 0.649,
+    "enc_max_ms": 2.067,
+    "dec_avg_ms": 0.298,
+    "dec_stdev_ms": 0.078,
+    "payload_bytes": 63
+  },
+  {
+    "algorithm": "Hybrid (RSA+K+D+AES)",
+    "iterations": 100,
+    "enc_avg_ms": 1.537,
+    "enc_stdev_ms": 0.292,
+    "enc_min_ms": 1.023,
+    "enc_max_ms": 2.337,
+    "dec_avg_ms": 2.142,
+    "dec_stdev_ms": 0.409,
+    "payload_bytes": 63
+  }
+]

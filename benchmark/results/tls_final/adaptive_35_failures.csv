@@ -1,0 +1,7 @@
+Method,Name,Error,Occurrences
+POST,/predict [low],RemoteDisconnected('Remote end closed connection without response'),1
+POST,/predict [high],RemoteDisconnected('Remote end closed connection without response'),1
+GET,/metrics,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/predict [medium],"ChunkedEncodingError(ProtocolError('Connection broken: IncompleteRead(0 bytes read, 270 more expected)', IncompleteRead(0 bytes read, 270 more expected)))",1
+POST,/predict [medium],RemoteDisconnected('Remote end closed connection without response'),3
+POST,/predict [stress],RemoteDisconnected('Remote end closed connection without response'),17
